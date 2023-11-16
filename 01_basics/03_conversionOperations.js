@@ -60,3 +60,23 @@ let boolIsLoggedIn = Boolean(isLoggedIn)
 console.log(typeof boolIsLoggedIn); //boolean
 console.log(boolIsLoggedIn); // true
 
+console.log("--------------------");
+
+// ******************** Operations ********************
+
+let numValue = 3
+let negValue = -numValue;
+console.log(negValue); // -3
+console.log(typeof negValue); // number
+
+// Weird Behaviour of Js
+console.log("1" + 2); //12
+console.log("1" + "2"); //12
+console.log(1 + "2"); // 12
+console.log("1" + "2" + 2); // 122
+console.log(1 + 2 + "2"); //32
+
+
+
+
+
